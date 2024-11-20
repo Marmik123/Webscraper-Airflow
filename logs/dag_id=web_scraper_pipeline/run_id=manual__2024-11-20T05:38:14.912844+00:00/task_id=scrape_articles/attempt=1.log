@@ -1,0 +1,1563 @@
+[2024-11-20T05:38:19.460+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2024-11-20T05:38:19.474+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: web_scraper_pipeline.scrape_articles manual__2024-11-20T05:38:14.912844+00:00 [queued]>
+[2024-11-20T05:38:19.482+0000] {taskinstance.py:2613} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: web_scraper_pipeline.scrape_articles manual__2024-11-20T05:38:14.912844+00:00 [queued]>
+[2024-11-20T05:38:19.482+0000] {taskinstance.py:2866} INFO - Starting attempt 1 of 2
+[2024-11-20T05:38:19.547+0000] {taskinstance.py:2889} INFO - Executing <Task(PythonOperator): scrape_articles> on 2024-11-20 05:38:14.912844+00:00
+[2024-11-20T05:38:19.550+0000] {standard_task_runner.py:72} INFO - Started process 36086 to run task
+[2024-11-20T05:38:19.557+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'web_scraper_pipeline', 'scrape_articles', 'manual__2024-11-20T05:38:14.912844+00:00', '--job-id', '2', '--raw', '--subdir', 'DAGS_FOLDER/webscrapper.py', '--cfg-path', '/tmp/tmp761xp3e5']
+[2024-11-20T05:38:19.561+0000] {standard_task_runner.py:105} INFO - Job 2: Subtask scrape_articles
+[2024-11-20T05:38:19.642+0000] {task_command.py:467} INFO - Running <TaskInstance: web_scraper_pipeline.scrape_articles manual__2024-11-20T05:38:14.912844+00:00 [running]> on host DESKTOP-PGKOH6A.
+[2024-11-20T05:38:19.765+0000] {taskinstance.py:3132} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='web_scraper_pipeline' AIRFLOW_CTX_TASK_ID='scrape_articles' AIRFLOW_CTX_EXECUTION_DATE='2024-11-20T05:38:14.912844+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2024-11-20T05:38:14.912844+00:00'
+[2024-11-20T05:38:19.767+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2024-11-20T05:38:19.767+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2024-11-20T05:38:19.767+0000] {logging_mixin.py:190} INFO - Current task name:scrape_articles state:running start_date:2024-11-20 05:38:19.474664+00:00
+[2024-11-20T05:38:19.768+0000] {logging_mixin.py:190} INFO - Dag name:web_scraper_pipeline and current dag run status:running
+[2024-11-20T05:38:19.768+0000] {taskinstance.py:731} INFO - ::endgroup::
+[2024-11-20T05:38:20.186+0000] {logging_mixin.py:190} INFO - <!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+<title>Finshots | Archive</title>
+<meta content="True" name="HandheldFriendly"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<link href="/assets/built/screen.css?v=e994aec420" rel="stylesheet" type="text/css"/>
+<link href="/assets/built/style.min.css?v=e994aec420" rel="stylesheet" type="text/css"/>
+<script async="" defer="" src="https://www.google.com/recaptcha/api.js"></script>
+<link href="/favicon.png" rel="shortcut icon" type="image/png"/>
+<link href="https://finshots.in/markets/" rel="canonical"/>
+<meta content="no-referrer-when-downgrade" name="referrer"/>
+<meta content="https://d3jlwjv6gmyigl.cloudfront.net/assets/finshots-home.png" property="og:image"/>
+<meta content="A 3 minute daily newsletter on the most important Financial and Business news in a language you will understand" property="description"/>
+<link href="https://finshots.in/markets/page/2/" rel="next"/>
+<meta content="Finshots" property="og:site_name"/>
+<meta content="website" property="og:type"/>
+<meta content="Finshots | Archive" property="og:title"/>
+<meta content="https://finshots.in/markets/" property="og:url"/>
+<meta content="https://www.facebook.com/finshots/" property="article:publisher"/>
+<meta content="summary" name="twitter:card"/>
+<meta content="Finshots | Archive" name="twitter:title"/>
+<meta content="https://finshots.in/markets/" name="twitter:url"/>
+<meta content="@finshots" name="twitter:site"/>
+<meta content="Ghost 2.25" name="generator"/>
+<link href="" rel="alternate" title="Finshots" type="application/rss+xml"/>
+<link href="https://chimpstatic.com" rel="preconnect"/>
+<link href="https://chimpstatic.com" rel="dns-prefetch"/>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-120539095-5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-120539095-5');
+</script>
+<!-- Google tag (gtag.js) -- GA4 linked tag-->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-JG6BQRR3VW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-JG6BQRR3VW');
+</script>
+<script defer="" id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/4586001b135729fc977641e60/9347723bfbd6f6c8a4a7b2039.js");</script>
+<script data-dojo-config="usePlainJson: true, isDebug: false" defer="" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" type="text/javascript"></script>
+<script defer="" type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"4586001b135729fc977641e60","lid":"5356ccb39e","uniqueMethods":true}) })</script>
+</head>
+<body class="">
+<style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+<div class="js-off-canvas-container c-off-canvas-container">
+<div class="c-search js-search">
+<div class="o-grid">
+<div class="o-grid__col o-grid__col--4-4-s o-grid__col--3-4-m o-grid__col--2-4-l o-grid__col--center">
+<form class="c-search__form">
+<span class="c-search__icon" data-icon="ei-search" data-size="m"></span>
+<span class="c-spinner__icon_hide c-spinner__icon" data-icon="ei-spinner" data-size="m"></span>
+<input aria-label="Search Finshots" class="c-search__input js-search-input" placeholder="Type to Search" type="search"/>
+</form>
+</div>
+</div>
+<div class="o-grid">
+<div class="o-grid__col o-grid__col--4-4-s o-grid__col--3-4-m o-grid__col--2-4-l o-grid__col--center">
+<div class="c-search-results js-search-results"></div>
+</div>
+</div>
+<div class="c-search__close js-search-close">
+<div data-icon="ei-close" data-size="s"></div>
+</div>
+</div>
+<div class="site-wrapper">
+<style>
+    .site-header-content {
+        padding: 3vw 4vw;
+    }
+
+    .post-card-excerpt>p {
+        margin-bottom: 12px !important;
+    }
+
+    .bg-color {
+        background-color: inherit !important;
+    }
+</style>
+<header class="site-header outer bg-color">
+<div>
+<style>
+    .site-nav-item {
+        display: inline-block;
+        padding: 5px 25px;
+        color: #696969;
+        font-weight: 600;
+        font-size: 17.5px;
+        opacity: 0.7;
+    }
+
+    .site-nav-item>a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .site-nav-item:hover {
+        text-decoration: none;
+        opacity: 1;
+    }
+
+    .site-nav-item-selected {
+        color: #44b3e0 !important;
+    }
+
+    .site-nav-item-selected>a {
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .site-nav-icon {
+        height: 15px;
+        margin: -5px 0 0;
+    }
+
+    .site-logo {
+        height: 50px;
+    }
+
+    .zerodha-logo {
+        height: 25px;
+    }
+
+    .site-mast {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    @media(min-width: 961px) and (max-width: 1060px) {
+        .site-nav-item {
+            padding: 5px 15px;
+        }
+    }
+
+    @media(min-width: 961px) {
+        .site-mast-right {
+            display: flex;
+            align-items: center;
+        }
+
+        .site-mast-right-mobile {
+            display: none;
+        }
+    }
+
+    @media(max-width: 960px) {
+        .site-mast {
+            padding: 0 20px;
+        }
+
+        .site-logo {
+            height: 40px;
+        }
+
+        .site-mast-right {
+            display: none;
+        }
+
+        .site-mast-right-mobile>img {
+            transform: scaleX(-1);
+            height: 25px;
+        }
+    }
+
+    .header {
+        max-width: 1350px;
+        margin: 0 auto;
+    }
+
+
+    .sidenav {
+        height: 100%;
+        /* 100% Full-height */
+        width: 0;
+        /* 0 width - change this with JavaScript */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1000;
+        /* Stay on top */
+        top: 0;
+        /* Stay at the top */
+        right: 0;
+
+        background-color: white;
+        overflow-x: hidden;
+        /* Disable horizontal scroll */
+        padding-top: 60px;
+        /* Place content 60px from the top */
+        transition: 0.5s;
+        /* 0.5 second transition effect to slide in the sidenav */
+    }
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 20px;
+        display: block;
+        transition: 0.3s;
+    }
+
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+        color: #808080;
+    }
+
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+        position: absolute;
+        top: 15px;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+    }
+
+    .closebtn {
+        color: #696969;
+        opacity: 0.7;
+    }
+
+    @media screen and (max-height: 450px) {
+        .sidenav {
+            padding-top: 15px;
+        }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+    }
+
+    #overlay {
+        position: fixed;
+        /* Sit on top of the page content */
+        display: none;
+        /* Hidden by default */
+        width: 100%;
+        /* Full width (cover the whole page) */
+        height: 100%;
+        /* Full height (cover the whole page) */
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        /* Black background with opacity */
+        z-index: 999;
+        /* Specify a stack order in case you're using a different order for other elements */
+        cursor: pointer;
+        /* Add a pointer on hover */
+    }
+
+    #mobile-item a {
+        display: none;
+    }
+
+    .nav-item-subscribe {
+        opacity: unset;
+        height: unset;
+        width: unset;
+    }
+
+
+    .nav-item-subscribe a button {
+        opacity: unset;
+        height: unset;
+        min-height: unset;
+        width: unset !important;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        color: #fff;
+        background-color: #5268db;
+        font-family: inherit;
+        -webkit-text-decoration: none;
+        text-decoration: none;
+        text-transform: capitalize;
+        border: 0;
+        -webkit-transition: all 0.3s ease;
+        transition: all 0.3s ease;
+        border-color: #5268db;
+        background-image: linear-gradient(31deg, rgba(215, 178, 233, 0.4) 0%, rgba(83, 105, 220, 0.4) 100%);
+        box-sizing: border-box;
+        font-family: Roboto, sans-serif !important;
+        font-size: 14px;
+    }
+
+    .mobile-item-fadeIn {
+        animation: fadeIn ease-in-out 1s;
+        -webkit-animation: fadeIn ease-in-out 1s;
+        -moz-animation: fadeIn ease-in-out 1s;
+        -o-animation: fadeIn ease-in-out 1s;
+        -ms-animation: fadeIn ease-in-out 1s;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 0.35;
+        }
+
+        100% {
+            opacity: 0.7;
+        }
+    }
+
+    @-moz-keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 0.35;
+        }
+
+        100% {
+            opacity: 0.7;
+        }
+    }
+
+    @-webkit-keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 0.35;
+        }
+
+        100% {
+            opacity: 0.7;
+        }
+    }
+
+    @-o-keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 0.35;
+        }
+
+        100% {
+            opacity: 0.7;
+        }
+    }
+
+    @-ms-keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        50% {
+            opacity: 0.35;
+        }
+
+        100% {
+            opacity: 0.7;
+        }
+    }
+
+    #nav-main-links {
+        display: none;
+    }
+</style>
+<div id="overlay" onclick="closeNav()"></div>
+<div>
+<header class="site-head">
+<div class="header">
+<div class="site-mast">
+<div class="site-mast-left">
+<a href="/">
+<img alt="Finshots Logo" class="site-logo" src="https://d3jlwjv6gmyigl.cloudfront.net/assets/two/images/logo-2d6831bc63e1ecb76091541e2f20069a.png"/>
+</a>
+</div>
+<div class="site-mast-right">
+<div id="nav-main-links">
+<div class="site-nav-item" id="daily">
+<a href="/archive">
+                            Finshots Daily
+                        </a>
+</div>
+<div class="site-nav-item" id="markets">
+<a href="/tag/markets">
+                            Finshots Markets
+                        </a>
+</div>
+<div class="site-nav-item" id="money">
+<a href="/tag/money">
+                            Finshots Money
+                        </a>
+</div>
+<div class="site-nav-item" id="infographic">
+<a href="/infographic">
+                            Infographics
+                        </a>
+</div>
+<div class="site-nav-item" id="ditto">
+<div style="display: flex; justify-content: end; ">
+<p style="color: #EB4D4B; margin: 0px -35px -5px 0px; font-size: 13px; line-height: 5px; background-color:#FFE4E4; padding: 7px; border-radius: 10px; font-weight: bold;">
+                                New</p>
+</div>
+<a href="https://joinditto.in/ask-ditto/?utm_source=finshots&amp;utm_medium=header">
+                            Ditto Insurance
+                        </a>
+</div>
+</div>
+<div class="site-nav-item">
+<ul class="c-nav o-plain-list">
+<li class="c-nav__item">
+<a aria-label="Search" class="toggle-search-button js-search-toggle" href="#">
+<div class="icon icon--ei-search icon--s c-nav__icon">
+<svg class="icon__cnt" height="0" width="0">
+<svg id="ei-search-icon" viewbox="0 0 50 50">
+<path d="M23 36c-7.2 0-13-5.8-13-13s5.8-13 13-13 13 5.8 13 13-5.8 13-13 13zm0-24c-6.1 0-11 4.9-11 11s4.9 11 11 11 11-4.9 11-11-4.9-11-11-11z">
+</path>
+<path d="M32.682 31.267l8.98 8.98-1.414 1.414-8.98-8.98z"></path>
+</svg>
+</svg>
+</div>
+</a>
+</li>
+</ul>
+</div>
+<div class="site-nav-item nav-item-subscribe">
+<a href="#subscribe_section">
+<button class="reusecore__button buttonstyle__ButtonStyle-ntq24p-0" font-size="2" font-weight="600" height="4" name="subscribe"><span class="btn-text">SUBSCRIBE</span>
+</button>
+</a>
+</div>
+</div>
+<div class="site-mast-right-mobile">
+<img alt="hamburger" onclick="openNav()" src="https://d3jlwjv6gmyigl.cloudfront.net/assets/hamburger_icon.png"/>
+<div class="top-nav">
+<div class="sidenav" id="mySidenav">
+<span class="closebtn" onclick="closeNav()">×</span>
+<div class="site-nav-item">
+<a aria-label="Search" class="toggle-search-button js-search-toggle" href="#">
+<span class="c-nav__icon" data-icon="ei-search" data-size="s"></span>
+</a>
+</div>
+<div class="site-nav-item" id="mobile-item">
+<a href="/archive">
+                                Finshots Daily
+                            </a>
+</div>
+<div class="site-nav-item" id="mobile-item">
+<a href="/tag/markets">
+                                Finshots Markets
+                            </a>
+</div>
+<div class="site-nav-item" id="mobile-item">
+<a href="/tag/money">
+                                Finshots Money
+                            </a>
+</div>
+<div class="site-nav-item" id="mobile-item">
+<a href="/infographic">
+                                Infographics
+                            </a>
+</div>
+<div class="site-nav-item" id="mobile-item" onclick="closeNav()">
+<a href="https://joinditto.in/ask-ditto/?utm_source=finshots&amp;utm_medium=header">
+                                Ditto Insurance
+                            </a>
+</div>
+<div class="site-nav-item" id="mobile-item" onclick="closeNav()">
+<a href="/#subscribe">
+                                Subscribe
+                            </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</header>
+<script>
+    window.onload = function () {
+        document.getElementById('nav-main-links').style.display = 'block';
+        const links = [
+            {
+                link: '/archive/',
+                id: 'daily',
+                title: 'Finshots Daily',
+                description: "3 Min reads that are fun, insightful and easy to understand.<br> This is Finshots as you know it."
+            },
+            {
+                link: '/markets/',
+                id: 'markets',
+                title: 'Finshots Markets',
+                description: "5 min articles focused on the Indian capital market ecosystem.<br> We'll have a new story for you each week."
+            },
+            {
+                link: '/money/',
+                id: 'money',
+                title: 'Finshots Money',
+                description: "3 min articles that will help you kickstart your personal finance journey."
+            },
+            {
+                link: '/infographic/',
+                id: 'infographic',
+                title: '',
+                description: ''
+            }
+        ];
+
+        if (window.location.pathname !== '/') {
+            const index = links.findIndex((i => window.location.pathname.includes(i.link)))
+            document.getElementById(`${links[index].id}`).style.display = 'none'; // removing the current nav item
+
+            if (index === 3)
+                document.getElementsByClassName('site-header-content')[0].style.padding = 0;
+            else {
+                document.getElementById('site-title').innerHTML = links[index].title;
+                document.getElementById('site-description').innerHTML = links[index].description;
+            }
+        }
+    }
+</script></div>
+<script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("overlay").style.display = "block";
+
+        setTimeout(function () {
+            jQuery(function ($) {
+                $('#mobile-item a').css({
+                    display: 'block'
+                });
+                $('[id^=mobile-item]').addClass('mobile-item-fadeIn');
+            });
+        }, 300)
+    }
+
+    /* Set the width of the side navigation to 0 */
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+
+        jQuery(function ($) {
+            $('#mobile-item a').css({
+                display: 'none'
+            });
+            $('[id^=mobile-item]').removeClass('mobile-item-fadeIn');
+        });
+
+        document.getElementById("overlay").style.transition = ".5s ease-out";
+        setTimeout(function () {
+            document.getElementById("overlay").style.display = "none";
+        }, 500)
+    }
+</script> </div>
+</header>
+<main class="site-main outer" id="site-main">
+<div class="inner">
+<div class="site-header-content">
+<h1 class="site-title" id="site-title"></h1>
+
+<h2 class="site-description" id="site-description"></h2>
+</div>
+<div class="post-feed">
+<article class="post-card post tag-markets">
+<a class="post-card-image-link" href="/markets/falling-rupee-and-rising-dollar-whos-benefitting-and-whos-losing/">
+<img alt="Falling rupee, rising dollar - Who benefits and who loses?" class="post-card-image" sizes="(max-width: 1000px) 400px, 700px" src="https://cdn.finshots.app/images/2024/11/Rupee-n-dollar.jpg" srcset="https://cdn.finshots.app/images/2024/11/Rupee-n-dollar.jpg 300w,
+                    https://cdn.finshots.app/images/2024/11/Rupee-n-dollar.jpg 600w,
+                    https://cdn.finshots.app/images/2024/11/Rupee-n-dollar.jpg 1000w,
+                    https://cdn.finshots.app/images/2024/11/Rupee-n-dollar.jpg 2000w"/>
+</a>
+<div class="post-card-content">
+<a class="post-card-content-link" href="/markets/falling-rupee-and-rising-dollar-whos-benefitting-and-whos-losing/">
+<header class="post-card-header">
+<h2 class="post-card-title">Falling rupee, rising dollar - Who benefits and who loses?</h2>
+</header>
+<section class="post-card-excerpt">
+<p>An explainer on who wins and who loses when the rupee drops or the dollar climbs.</p>
+</section>
+</a>
+<footer class="post-card-meta">
+<time class="post-full-meta-date" datetime="2024-11-15">15 November 2024</time>
+<span class="reading-time">6 min read</span>
+</footer>
+</div>
+</article>
+<article class="post-card post tag-markets featured">
+<a class="post-card-image-link" href="/markets/the-niva-bupa-health-insurance-ipo/">
+<img alt="The Niva Bupa Health Insurance IPO" class="post-card-image" sizes="(max-width: 1000px) 400px, 700px" src="https://cdn.finshots.app/images/2024/11/NIVA-ipo2.jpg" srcset="https://cdn.finshots.app/images/2024/11/NIVA-ipo2.jpg 300w,
+                    https://cdn.finshots.app/images/2024/11/NIVA-ipo2.jpg 600w,
+                    https://cdn.finshots.app/images/2024/11/NIVA-ipo2.jpg 1000w,
+                    https://cdn.finshots.app/images/2024/11/NIVA-ipo2.jpg 2000w"/>
+</a>
+<div class="post-card-content">
+<a class="post-card-content-link" href="/markets/the-niva-bupa-health-insurance-ipo/">
+<header class="post-card-header">
+<h2 class="post-card-title">The Niva Bupa Health Insurance IPO</h2>
+</header>
+<section class="post-card-excerpt">
+<p>An explainer on the Niva Bupa Health Insurance Company's IPO.</p>
+</section>
+</a>
+<footer class="post-card-meta">
+<time class="post-full-meta-date" datetime="2024-11-09">9 November 2024</time>
+<span class="reading-time">6 min read</span>
+</footer>
+</div>
+</article>
+<article class="post-card post tag-markets">
+<a class="post-card-image-link" href="/markets/is-elcid-investments-india-most-expensive-stock-worth-the-price-mrf-multibagger/">
+<img alt="Is India's priciest stock worth the money?" class="post-card-image" sizes="(max-width: 1000px) 400px, 700px" src="https://cdn.finshots.app/images/2024/11/Elcid.jpg" srcset="https://cdn.finshots.app/images/2024/11/Elcid.jpg 300w,
+                    https://cdn.finshots.app/images/2024/11/Elcid.jpg 600w,
+                    https://cdn.finshots.app/images/2024/11/Elcid.jpg 1000w,
+                    https://cdn.finshots.app/images/2024/11/Elcid.jpg 2000w"/>
+</a>
+<div class="post-card-content">
+<a class="post-card-content-link" href="/markets/is-elcid-investments-india-most-expensive-stock-worth-the-price-mrf-multibagger/">
+<header class="post-card-header">
+<h2 class="post-card-title">Is India's priciest stock worth the money?</h2>
+</header>
+<section class="post-card-excerpt">
+<p>An explainer on how Elcid Investments became a multibagger and if it's actually worth it.</p>
+</section>
+</a>
+<footer class="post-card-meta">
+<time class="post-full-meta-date" datetime="2024-11-02">2 November 2024</time>
+<span class="reading-time">6 min read</span>
+</footer>
+</div>
+</article>
+<article class="post-card post tag-markets">
+<a class="post-card-image-link" href="/markets/new-sebi-rules-to-rock-the-f-o-world-futures-options-derivatives-weekly-expiry-india/">
+<img alt="New SEBI rules to rock the F&amp;O world?" class="post-card-image" sizes="(max-width: 1000px) 400px, 700px" src="https://cdn.finshots.app/images/2024/10/sebi-new-rules.jpg" srcset="https://cdn.finshots.app/images/2024/10/sebi-new-rules.jpg 300w,
+                    https://cdn.finshots.app/images/2024/10/sebi-new-rules.jpg 600w,
+                    https://cdn.finshots.app/images/2024/10/sebi-new-rules.jpg 1000w,
+                    https://cdn.finshots.app/images/2024/10/sebi-new-rules.jpg 2000w"/>
+</a>
+<div class="post-card-content">
+<a class="post-card-content-link" href="/markets/new-sebi-rules-to-rock-the-f-o-world-futures-options-derivatives-weekly-expiry-india/">
+<header class="post-card-header">
+<h2 class="post-card-title">New SEBI rules to rock the F&amp;O world?</h2>
+</header>
+<section class="post-card-excerpt">
+<p>An explainer on SEBI's new rules for F&amp;O trading and how they could impact the markets.</p>
+</section>
+</a>
+<footer class="post-card-meta">
+<time class="post-full-meta-date" datetime="2024-10-26">26 October 2024</time>
+<span class="reading-time">6 min read</span>
+</footer>
+</div>
+</article>
+<article class="post-card post tag-markets">
+<a class="post-card-image-link" href="/markets/what-are-qips-and-are-they-driving-indias-realty-sector-qualified-institutional-placements/">
+<img alt="Are QIPs driving India’s realty sector?" class="post-card-image" sizes="(max-width: 1000px) 400px, 700px" src="https://cdn.finshots.app/images/2024/10/QIP.jpg" srcset="https://cdn.finshots.app/images/2024/10/QIP.jpg 300w,
+                    https://cdn.finshots.app/images/2024/10/QIP.jpg 600w,
+                    https://cdn.finshots.app/images/2024/10/QIP.jpg 1000w,
+                    https://cdn.finshots.app/images/2024/10/QIP.jpg 2000w"/>
+</a>
+<div class="post-card-content">
+<a class="post-card-content-link" href="/markets/what-are-qips-and-are-they-driving-indias-realty-sector-qualified-institutional-placements/">
+<header class="post-card-header">
+<h2 class="post-card-title">Are QIPs driving India’s realty sector?</h2>
+</header>
+<section class="post-card-excerpt">
+<p>An explainer on why Qualified Institutional Placements (QIP) are hitting record highs in 2024 and how a sector could be driving this boom.</p>
+</section>
+</a>
+<footer class="post-card-meta">
+<time class="post-full-meta-date" datetime="2024-10-18">18 October 2024</time>
+<span class="reading-time">6 min read</span>
+</footer>
+</div>
+</article>
+<article class="post-card post tag-markets">
+<a class="post-card-image-link" href="/markets/is-indias-steel-sector-sinking-or-gearing-for-a-comeback-china-imports-steel-stocks/">
+<img alt="Is India’s steel sector sinking or gearing for a comeback?" class="post-card-image" sizes="(max-width: 1000px) 400px, 700px" src="https://cdn.finshots.app/images/2024/10/steel.jpg" srcset="https://cdn.finshots.app/images/2024/10/steel.jpg 300w,
+                    https://cdn.finshots.app/images/2024/10/steel.jpg 600w,
+                    https://cdn.finshots.app/images/2024/10/steel.jpg 1000w,
+                    https://cdn.finshots.app/images/2024/10/steel.jpg 2000w"/>
+</a>
+<div class="post-card-content">
+<a class="post-card-content-link" href="/markets/is-indias-steel-sector-sinking-or-gearing-for-a-comeback-china-imports-steel-stocks/">
+<header class="post-card-header">
+<h2 class="post-card-title">Is India’s steel sector sinking or gearing for a comeback?</h2>
+</header>
+<section class="post-card-excerpt">
+<p>An explainer on the current chaos in the steel sector and what's next.</p>
+</section>
+</a>
+<footer class="post-card-meta">
+<time class="post-full-meta-date" datetime="2024-10-11">11 October 2024</time>
+<span class="reading-time">6 min read</span>
+</footer>
+</div>
+</article>
+<article class="post-card post tag-markets">
+<a class="post-card-image-link" href="/markets/unpacking-the-swiggy-ipo-issue/">
+<img alt="Unpacking the Swiggy IPO" class="post-card-image" sizes="(max-width: 1000px) 400px, 700px" src="https://cdn.finshots.app/images/2024/10/SwiggyIPO-1.jpg" srcset="https://cdn.finshots.app/images/2024/10/SwiggyIPO-1.jpg 300w,
+                    https://cdn.finshots.app/images/2024/10/SwiggyIPO-1.jpg 600w,
+                    https://cdn.finshots.app/images/2024/10/SwiggyIPO-1.jpg 1000w,
+                    https://cdn.finshots.app/images/2024/10/SwiggyIPO-1.jpg 2000w"/>
+</a>
+<div class="post-card-content">
+<a class="post-card-content-link" href="/markets/unpacking-the-swiggy-ipo-issue/">
+<header class="post-card-header">
+<h2 class="post-card-title">Unpacking the Swiggy IPO</h2>
+</header>
+<section class="post-card-excerpt">
+<p>A closer look at Swiggy's upcoming IPO and what it means for the food and grocery delivery giant.</p>
+</section>
+</a>
+<footer class="post-card-meta">
+<time class="post-full-meta-date" datetime="2024-10-04">4 October 2024</time>
+<span class="reading-time">7 min read</span>
+</footer>
+</div>
+</article>
+<article class="post-card post tag-markets">
+<a class="post-card-image-link" href="/markets/will-trent-and-bajaj-finserv-move-the-sensex-index-rejig/">
+<img alt="Will Trent and Bajaj Finserv move the Sensex?" class="post-card-image" sizes="(max-width: 1000px) 400px, 700px" src="https://cdn.finshots.app/images/2024/09/SensexrebalncingV2-1.jpg" srcset="https://cdn.finshots.app/images/2024/09/SensexrebalncingV2-1.jpg 300w,
+                    https://cdn.finshots.app/images/2024/09/SensexrebalncingV2-1.jpg 600w,
+                    https://cdn.finshots.app/images/2024/09/SensexrebalncingV2-1.jpg 1000w,
+                    https://cdn.finshots.app/images/2024/09/SensexrebalncingV2-1.jpg 2000w"/>
+</a>
+<div class="post-card-content">
+<a class="post-card-content-link" href="/markets/will-trent-and-bajaj-finserv-move-the-sensex-index-rejig/">
+<header class="post-card-header">
+<h2 class="post-card-title">Will Trent and Bajaj Finserv move the Sensex?</h2>
+</header>
+<section class="post-card-excerpt">
+<p>An explainer on how the upcoming Sensex rejig could impact stocks, markets, and your returns.</p>
+</section>
+</a>
+<footer class="post-card-meta">
+<time class="post-full-meta-date" datetime="2024-09-28">28 September 2024</time>
+<span class="reading-time">6 min read</span>
+</footer>
+</div>
+</article>
+<article class="post-card post tag-markets">
+<a class="post-card-image-link" href="/markets/everyones-excited-about-the-ntpc-green-energy-ipo-ntpc-renewable-energy-solar-coal-issue-price/">
+<img alt="Everyone's excited about the NTPC Green Energy IPO!" class="post-card-image" sizes="(max-width: 1000px) 400px, 700px" src="https://cdn.finshots.app/images/2024/09/NTPC-green-IPO3.jpg" srcset="https://cdn.finshots.app/images/2024/09/NTPC-green-IPO3.jpg 300w,
+                    https://cdn.finshots.app/images/2024/09/NTPC-green-IPO3.jpg 600w,
+                    https://cdn.finshots.app/images/2024/09/NTPC-green-IPO3.jpg 1000w,
+                    https://cdn.finshots.app/images/2024/09/NTPC-green-IPO3.jpg 2000w"/>
+</a>
+<div class="post-card-content">
+<a class="post-card-content-link" href="/markets/everyones-excited-about-the-ntpc-green-energy-ipo-ntpc-renewable-energy-solar-coal-issue-price/">
+<header class="post-card-header">
+<h2 class="post-card-title">Everyone's excited about the NTPC Green Energy IPO!</h2>
+</header>
+<section class="post-card-excerpt">
+<p>A look at the upcoming NTPC Green Energy IPO.</p>
+</section>
+</a>
+<footer class="post-card-meta">
+<time class="post-full-meta-date" datetime="2024-09-21">21 September 2024</time>
+<span class="reading-time">7 min read</span>
+</footer>
+</div>
+</article>
+<article class="post-card post tag-markets">
+<a class="post-card-image-link" href="/markets/vis-happiness-is-indus-towers-happiness/">
+<img alt="Vi’s happiness is Indus Towers’ happiness" class="post-card-image" sizes="(max-width: 1000px) 400px, 700px" src="https://cdn.finshots.app/images/2024/04/VI.jpg" srcset="https://cdn.finshots.app/images/2024/04/VI.jpg 300w,
+                    https://cdn.finshots.app/images/2024/04/VI.jpg 600w,
+                    https://cdn.finshots.app/images/2024/04/VI.jpg 1000w,
+                    https://cdn.finshots.app/images/2024/04/VI.jpg 2000w"/>
+</a>
+<div class="post-card-content">
+<a class="post-card-content-link" href="/markets/vis-happiness-is-indus-towers-happiness/">
+<header class="post-card-header">
+<h2 class="post-card-title">Vi’s happiness is Indus Towers’ happiness</h2>
+</header>
+<section class="post-card-excerpt">
+<p>An explainer on the role of tower companies in the telecom industry.</p>
+</section>
+</a>
+<footer class="post-card-meta">
+<time class="post-full-meta-date" datetime="2024-04-26">26 April 2024</time>
+<span class="reading-time">5 min read</span>
+</footer>
+</div>
+</article>
+<article class="post-card post tag-markets">
+<a class="post-card-image-link" href="/markets/should-dmart-sell-gold/">
+<img alt="Should DMart sell gold?" class="post-card-image" sizes="(max-width: 1000px) 400px, 700px" src="https://cdn.finshots.app/images/2024/04/dmart.jpg" srcset="https://cdn.finshots.app/images/2024/04/dmart.jpg 300w,
+                    https://cdn.finshots.app/images/2024/04/dmart.jpg 600w,
+                    https://cdn.finshots.app/images/2024/04/dmart.jpg 1000w,
+                    https://cdn.finshots.app/images/2024/04/dmart.jpg 2000w"/>
+</a>
+<div class="post-card-content">
+<a class="post-card-content-link" href="/markets/should-dmart-sell-gold/">
+<header class="post-card-header">
+<h2 class="post-card-title">Should DMart sell gold?</h2>
+</header>
+<section class="post-card-excerpt">
+<p>An explainer on how DMart has tweaked its strategy over the past year and a little suggestion of our own.</p>
+</section>
+</a>
+<footer class="post-card-meta">
+<time class="post-full-meta-date" datetime="2024-04-20">20 April 2024</time>
+<span class="reading-time">5 min read</span>
+</footer>
+</div>
+</article>
+<article class="post-card post tag-markets">
+<a class="post-card-image-link" href="/markets/landmark-moment-mercedes-benz/">
+<img alt="A Landmark moment for Mercedes-Benz?" class="post-card-image" sizes="(max-width: 1000px) 400px, 700px" src="https://cdn.finshots.app/images/2024/04/landmark.jpg" srcset="https://cdn.finshots.app/images/2024/04/landmark.jpg 300w,
+                    https://cdn.finshots.app/images/2024/04/landmark.jpg 600w,
+                    https://cdn.finshots.app/images/2024/04/landmark.jpg 1000w,
+                    https://cdn.finshots.app/images/2024/04/landmark.jpg 2000w"/>
+</a>
+<div class="post-card-content">
+<a class="post-card-content-link" href="/markets/landmark-moment-mercedes-benz/">
+<header class="post-card-header">
+<h2 class="post-card-title">A Landmark moment for Mercedes-Benz?</h2>
+</header>
+<section class="post-card-excerpt">
+<p>An explainer on how Landmark Cars is riding the wave of demand for luxury and premium cars.</p>
+</section>
+</a>
+<footer class="post-card-meta">
+<time class="post-full-meta-date" datetime="2024-04-05">5 April 2024</time>
+<span class="reading-time">6 min read</span>
+</footer>
+</div>
+</article>
+<article class="post-card post tag-markets">
+<a class="post-card-image-link" href="/markets/goodbye-icici-securities/">
+<img alt="Goodbye, ICICI Securities…" class="post-card-image" sizes="(max-width: 1000px) 400px, 700px" src="https://cdn.finshots.app/images/2024/03/icici-securities.jpg" srcset="https://cdn.finshots.app/images/2024/03/icici-securities.jpg 300w,
+                    https://cdn.finshots.app/images/2024/03/icici-securities.jpg 600w,
+                    https://cdn.finshots.app/images/2024/03/icici-securities.jpg 1000w,
+                    https://cdn.finshots.app/images/2024/03/icici-securities.jpg 2000w"/>
+</a>
+<div class="post-card-content">
+<a class="post-card-content-link" href="/markets/goodbye-icici-securities/">
+<header class="post-card-header">
+<h2 class="post-card-title">Goodbye, ICICI Securities…</h2>
+</header>
+<section class="post-card-excerpt">
+<p>An explainer on the controversy over the delisting of ICICI Securities.</p>
+</section>
+</a>
+<footer class="post-card-meta">
+<time class="post-full-meta-date" datetime="2024-03-29">29 March 2024</time>
+<span class="reading-time">4 min read</span>
+</footer>
+</div>
+</article>
+<article class="post-card post tag-markets">
+<a class="post-card-image-link" href="/markets/omc-rally-run-out-of-fuel/">
+<img alt="Has the rally of Oil Marketing Companies run out of fuel?" class="post-card-image" sizes="(max-width: 1000px) 400px, 700px" src="https://cdn.finshots.app/images/2024/03/oil-prices.jpg" srcset="https://cdn.finshots.app/images/2024/03/oil-prices.jpg 300w,
+                    https://cdn.finshots.app/images/2024/03/oil-prices.jpg 600w,
+                    https://cdn.finshots.app/images/2024/03/oil-prices.jpg 1000w,
+                    https://cdn.finshots.app/images/2024/03/oil-prices.jpg 2000w"/>
+</a>
+<div class="post-card-content">
+<a class="post-card-content-link" href="/markets/omc-rally-run-out-of-fuel/">
+<header class="post-card-header">
+<h2 class="post-card-title">Has the rally of Oil Marketing Companies run out of fuel?</h2>
+</header>
+<section class="post-card-excerpt">
+<p>An explainer on why the shares of certain oil companies witnessed a massive rally in 2023 and how recent events might be a dampener.</p>
+</section>
+</a>
+<footer class="post-card-meta">
+<time class="post-full-meta-date" datetime="2024-03-23">23 March 2024</time>
+<span class="reading-time">5 min read</span>
+</footer>
+</div>
+</article>
+<article class="post-card post tag-markets">
+<a class="post-card-image-link" href="/markets/gold-rush/">
+<img alt="Gold Rush" class="post-card-image" sizes="(max-width: 1000px) 400px, 700px" src="https://cdn.finshots.app/images/2024/03/gold-rush.jpg" srcset="https://cdn.finshots.app/images/2024/03/gold-rush.jpg 300w,
+                    https://cdn.finshots.app/images/2024/03/gold-rush.jpg 600w,
+                    https://cdn.finshots.app/images/2024/03/gold-rush.jpg 1000w,
+                    https://cdn.finshots.app/images/2024/03/gold-rush.jpg 2000w"/>
+</a>
+<div class="post-card-content">
+<a class="post-card-content-link" href="/markets/gold-rush/">
+<header class="post-card-header">
+<h2 class="post-card-title">Gold Rush</h2>
+</header>
+<section class="post-card-excerpt">
+<p>An explainer on the recent rally in gold prices.</p>
+</section>
+</a>
+<footer class="post-card-meta">
+<time class="post-full-meta-date" datetime="2024-03-15">15 March 2024</time>
+<span class="reading-time">4 min read</span>
+</footer>
+</div>
+</article>
+<article class="post-card post tag-markets">
+<a class="post-card-image-link" href="/markets/the-gopal-snacks-ipo/">
+<img alt="The Gopal Snacks IPO" class="post-card-image" sizes="(max-width: 1000px) 400px, 700px" src="https://cdn.finshots.app/images/2024/03/gopal-IPO.jpg" srcset="https://cdn.finshots.app/images/2024/03/gopal-IPO.jpg 300w,
+                    https://cdn.finshots.app/images/2024/03/gopal-IPO.jpg 600w,
+                    https://cdn.finshots.app/images/2024/03/gopal-IPO.jpg 1000w,
+                    https://cdn.finshots.app/images/2024/03/gopal-IPO.jpg 2000w"/>
+</a>
+<div class="post-card-content">
+<a class="post-card-content-link" href="/markets/the-gopal-snacks-ipo/">
+<header class="post-card-header">
+<h2 class="post-card-title">The Gopal Snacks IPO</h2>
+</header>
+<section class="post-card-excerpt">
+<p>An explainer on the business of Gopal Snacks which closes its IPO application window on 11th March ’24 (Monday)</p>
+</section>
+</a>
+<footer class="post-card-meta">
+<time class="post-full-meta-date" datetime="2024-03-08">8 March 2024</time>
+<span class="reading-time">5 min read</span>
+</footer>
+</div>
+</article>
+<article class="post-card post tag-markets">
+<a class="post-card-image-link" href="/markets/will-the-advertising-ban-on-patanjali-shake-things-up/">
+<img alt="Will the advertising ban on Patanjali shake things up?" class="post-card-image" sizes="(max-width: 1000px) 400px, 700px" src="https://cdn.finshots.app/images/2024/03/patanjali2.png" srcset="https://cdn.finshots.app/images/2024/03/patanjali2.png 300w,
+                    https://cdn.finshots.app/images/2024/03/patanjali2.png 600w,
+                    https://cdn.finshots.app/images/2024/03/patanjali2.png 1000w,
+                    https://cdn.finshots.app/images/2024/03/patanjali2.png 2000w"/>
+</a>
+<div class="post-card-content">
+<a class="post-card-content-link" href="/markets/will-the-advertising-ban-on-patanjali-shake-things-up/">
+<header class="post-card-header">
+<h2 class="post-card-title">Will the advertising ban on Patanjali shake things up?</h2>
+</header>
+<section class="post-card-excerpt">
+<p>An explainer on the journey of the Patanjali Group and why the Supreme Court has imposed a temporary advertising ban on one of its entities.</p>
+</section>
+</a>
+<footer class="post-card-meta">
+<time class="post-full-meta-date" datetime="2024-03-01">1 March 2024</time>
+<span class="reading-time">5 min read</span>
+</footer>
+</div>
+</article>
+<article class="post-card post tag-markets">
+<a class="post-card-image-link" href="/markets/can-nirma-make-the-jump-from-suds-to-pills/">
+<img alt="Can Nirma make the jump from suds to pills?" class="post-card-image" sizes="(max-width: 1000px) 400px, 700px" src="https://cdn.finshots.app/images/2024/02/nirma.jpg" srcset="https://cdn.finshots.app/images/2024/02/nirma.jpg 300w,
+                    https://cdn.finshots.app/images/2024/02/nirma.jpg 600w,
+                    https://cdn.finshots.app/images/2024/02/nirma.jpg 1000w,
+                    https://cdn.finshots.app/images/2024/02/nirma.jpg 2000w"/>
+</a>
+<div class="post-card-content">
+<a class="post-card-content-link" href="/markets/can-nirma-make-the-jump-from-suds-to-pills/">
+<header class="post-card-header">
+<h2 class="post-card-title">Can Nirma make the jump from suds to pills?</h2>
+</header>
+<section class="post-card-excerpt">
+<p>An explainer on how and why a detergent company has come to own a specialist pharma company.</p>
+</section>
+</a>
+<footer class="post-card-meta">
+<time class="post-full-meta-date" datetime="2024-02-16">16 February 2024</time>
+<span class="reading-time">6 min read</span>
+</footer>
+</div>
+</article>
+<article class="post-card post tag-markets">
+<a class="post-card-image-link" href="/markets/trents-dream-run-continues-thanks-to-zudio/">
+<img alt="Trent’s dream run continues…thanks to Zudio!" class="post-card-image" sizes="(max-width: 1000px) 400px, 700px" src="https://cdn.finshots.app/images/2024/02/trent.jpg" srcset="https://cdn.finshots.app/images/2024/02/trent.jpg 300w,
+                    https://cdn.finshots.app/images/2024/02/trent.jpg 600w,
+                    https://cdn.finshots.app/images/2024/02/trent.jpg 1000w,
+                    https://cdn.finshots.app/images/2024/02/trent.jpg 2000w"/>
+</a>
+<div class="post-card-content">
+<a class="post-card-content-link" href="/markets/trents-dream-run-continues-thanks-to-zudio/">
+<header class="post-card-header">
+<h2 class="post-card-title">Trent’s dream run continues…thanks to Zudio!</h2>
+</header>
+<section class="post-card-excerpt">
+<p>An explainer on why Trent’s stock price jumped by 20% this week. Or rather, we dive into why Trent’s stock price has soared by nearly 180% in the past year.</p>
+</section>
+</a>
+<footer class="post-card-meta">
+<time class="post-full-meta-date" datetime="2024-02-09">9 February 2024</time>
+<span class="reading-time">6 min read</span>
+</footer>
+</div>
+</article>
+<article class="post-card post tag-markets">
+<a class="post-card-image-link" href="/markets/goodbye-paytm-payments-bank/">
+<img alt="Goodbye, Paytm Payments Bank?" class="post-card-image" sizes="(max-width: 1000px) 400px, 700px" src="https://cdn.finshots.app/images/2024/02/paytm-death.jpg" srcset="https://cdn.finshots.app/images/2024/02/paytm-death.jpg 300w,
+                    https://cdn.finshots.app/images/2024/02/paytm-death.jpg 600w,
+                    https://cdn.finshots.app/images/2024/02/paytm-death.jpg 1000w,
+                    https://cdn.finshots.app/images/2024/02/paytm-death.jpg 2000w"/>
+</a>
+<div class="post-card-content">
+<a class="post-card-content-link" href="/markets/goodbye-paytm-payments-bank/">
+<header class="post-card-header">
+<h2 class="post-card-title">Goodbye, Paytm Payments Bank?</h2>
+</header>
+<section class="post-card-excerpt">
+<p>An explainer on why the RBI has effectively killed the payments bank business of Paytm and what it could mean for the future of the fintech.</p>
+</section>
+</a>
+<footer class="post-card-meta">
+<time class="post-full-meta-date" datetime="2024-02-03">3 February 2024</time>
+<span class="reading-time">5 min read</span>
+</footer>
+</div>
+</article>
+<article class="post-card post tag-markets">
+<a class="post-card-image-link" href="/markets/a-diamond-chip-on-haldirams-shelf/">
+<img alt="A Diamond Chip on Haldiram’s Shelf?" class="post-card-image" sizes="(max-width: 1000px) 400px, 700px" src="https://cdn.finshots.app/images/2024/01/haldiram.jpg" srcset="https://cdn.finshots.app/images/2024/01/haldiram.jpg 300w,
+                    https://cdn.finshots.app/images/2024/01/haldiram.jpg 600w,
+                    https://cdn.finshots.app/images/2024/01/haldiram.jpg 1000w,
+                    https://cdn.finshots.app/images/2024/01/haldiram.jpg 2000w"/>
+</a>
+<div class="post-card-content">
+<a class="post-card-content-link" href="/markets/a-diamond-chip-on-haldirams-shelf/">
+<header class="post-card-header">
+<h2 class="post-card-title">A Diamond Chip on Haldiram’s Shelf?</h2>
+</header>
+<section class="post-card-excerpt">
+<p>An explainer on the journey of Prataap Snacks and the rumours of an acquisition by Haldiram’s.</p>
+</section>
+</a>
+<footer class="post-card-meta">
+<time class="post-full-meta-date" datetime="2024-01-26">26 January 2024</time>
+<span class="reading-time">5 min read</span>
+</footer>
+</div>
+</article>
+<article class="post-card post tag-markets">
+<a class="post-card-image-link" href="/markets/hdfc-is-in-trouble/">
+<img alt="HDFC is in trouble — Has the elephant forgotten how to dance?" class="post-card-image" sizes="(max-width: 1000px) 400px, 700px" src="https://cdn.finshots.app/images/2024/01/HDFC.jpg" srcset="https://cdn.finshots.app/images/2024/01/HDFC.jpg 300w,
+                    https://cdn.finshots.app/images/2024/01/HDFC.jpg 600w,
+                    https://cdn.finshots.app/images/2024/01/HDFC.jpg 1000w,
+                    https://cdn.finshots.app/images/2024/01/HDFC.jpg 2000w"/>
+</a>
+<div class="post-card-content">
+<a class="post-card-content-link" href="/markets/hdfc-is-in-trouble/">
+<header class="post-card-header">
+<h2 class="post-card-title">HDFC is in trouble — Has the elephant forgotten how to dance?</h2>
+</header>
+<section class="post-card-excerpt">
+<p>An explainer on why HDFC Bank's share price has fallen by over 10% this week.</p>
+</section>
+</a>
+<footer class="post-card-meta">
+<time class="post-full-meta-date" datetime="2024-01-20">20 January 2024</time>
+<span class="reading-time">5 min read</span>
+</footer>
+</div>
+</article>
+<article class="post-card post tag-markets">
+<a class="post-card-image-link" href="/markets/finshots-is-a-stock-picking-genius-but/">
+<img alt="Finshots is a stock-picking genius. But…" class="post-card-image" sizes="(max-width: 1000px) 400px, 700px" src="https://cdn.finshots.app/images/2024/01/1000024635.jpg" srcset="https://cdn.finshots.app/images/2024/01/1000024635.jpg 300w,
+                    https://cdn.finshots.app/images/2024/01/1000024635.jpg 600w,
+                    https://cdn.finshots.app/images/2024/01/1000024635.jpg 1000w,
+                    https://cdn.finshots.app/images/2024/01/1000024635.jpg 2000w"/>
+</a>
+<div class="post-card-content">
+<a class="post-card-content-link" href="/markets/finshots-is-a-stock-picking-genius-but/">
+<header class="post-card-header">
+<h2 class="post-card-title">Finshots is a stock-picking genius. But…</h2>
+</header>
+<section class="post-card-excerpt">
+<p>An explainer about the battle between skill and luck in the stock markets.</p>
+</section>
+</a>
+<footer class="post-card-meta">
+<time class="post-full-meta-date" datetime="2024-01-05">5 January 2024</time>
+<span class="reading-time">4 min read</span>
+</footer>
+</div>
+</article>
+<article class="post-card post tag-markets">
+<a class="post-card-image-link" href="/markets/is-ebixcash-ipo-dead-and-buried/">
+<img alt="Is EbixCash’s IPO dead and buried?" class="post-card-image" sizes="(max-width: 1000px) 400px, 700px" src="https://cdn.finshots.app/images/2023/12/EBIX.jpg" srcset="https://cdn.finshots.app/images/2023/12/EBIX.jpg 300w,
+                    https://cdn.finshots.app/images/2023/12/EBIX.jpg 600w,
+                    https://cdn.finshots.app/images/2023/12/EBIX.jpg 1000w,
+                    https://cdn.finshots.app/images/2023/12/EBIX.jpg 2000w"/>
+</a>
+<div class="post-card-content">
+<a class="post-card-content-link" href="/markets/is-ebixcash-ipo-dead-and-buried/">
+<header class="post-card-header">
+<h2 class="post-card-title">Is EbixCash’s IPO dead and buried?</h2>
+</header>
+<section class="post-card-excerpt">
+<p>An explainer on the meteoric rise and fall of the Ebix group.</p>
+</section>
+</a>
+<footer class="post-card-meta">
+<time class="post-full-meta-date" datetime="2023-12-22">22 December 2023</time>
+<span class="reading-time">6 min read</span>
+</footer>
+</div>
+</article>
+</div>
+<div class="inner">
+<nav class="pagination" role="navigation">
+<span class="page-number">Page 1 of 8</span>
+<a class="older-posts" href="/markets/page/2/">Older <span class="pagination-nav-text"> Articles</span> <span class="chevron-right__icon" data-icon="ei-chevron-right" data-size="m"></span> </a>
+</nav>
+</div>
+<style>
+  #captcha_element {
+    margin: 10px;
+  }
+</style>
+<div class="subscribe-main" id="subscribe_section">
+<div class="containerClass">
+<h1 class="title">Join 5,00,000+ Subscribers</h1>
+<form action="https://send.finshots.in/api/subscribe/" class="subscribe-form validate" id="mc-embedded-subscribe-form" method="post" name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+<input aria-label="email" class="email_input" id="mce-EMAIL" name="email" placeholder="Enter Your Email address" type="email">
+<button id="mc-embedded-subscribe" name="subscribe" title="" type="submit">SUBSCRIBE</button>
+<div aria-hidden="true" class="invisible-div">
+<input name="audience" readonly="" tabindex="-1" type="text" value="Finshots Main"/>
+</div>
+</input></form>
+
+<p class="contactdes">Be a part of our ever growing community.<a href="https://twitter.com/finshots">
+        Join us on Twitter</a>
+</p>
+</div>
+</div> <style>
+    .subscribe-popup-parent {
+        position: fixed;
+        z-index: 9999;
+        bottom: 20px;
+        right:
+            20px;
+        background-color: white;
+        width: 500px;
+        height: 510px;
+        border-radius:
+            6px;
+        box-sizing: border-box;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+        animation: 500ms slideIn cubic-bezier(.35, .57, .4, .89);
+        visibility: hidden;
+    }
+
+    .upper-half {
+        position: absolute;
+        top: 0;
+        display: block;
+        clear: both;
+        min-height: 185px;
+        width: 100%;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-image:
+            url('https://mcusercontent.com/4586001b135729fc977641e60/images/32add94b-1067-4429-99ea-20d5c6ee3ccd.jpg');
+    }
+
+    .lower-half {
+        padding: 200px 30px 30px;
+        text-align: center;
+    }
+
+    .invisible-div {
+        visibility: hidden;
+        height: 0;
+    }
+
+    .popup-email-input {
+        background-color: #F3F2FA;
+        border: 1px solid #E9E3FE;
+        border-radius: 5px;
+        display:
+            inline-block;
+        min-height: 50px;
+        min-width: 50px;
+        padding: 0 0.8em;
+        vertical-align: middle;
+        width: 100%;
+        margin: 0 0 12px;
+        font-size: 15px;
+        font-weight: 500;
+        margin-top: 10px;
+    }
+
+    .subs-submit-button {
+        background: linear-gradient(228.24deg, #5469DB 3.18%, #8383E0 93.01%);
+        border: 0 none;
+        border-radius: 5px;
+        color: #FFFFFF;
+        cursor: pointer;
+        display: inline-block;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        min-height: 50px;
+        font-size: 16px;
+        font-weight: 700;
+        height: 36px;
+        letter-spacing: -0.5px;
+        line-height: 18px;
+        margin-right: 0;
+        overflow: hidden;
+        padding: 0 18px;
+        text-align: center;
+        width: 100%;
+    }
+
+    .lower-half>.desk-copy>h3 {
+        font-size: 20px;
+        font-weight: 600;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        margin: 0;
+    }
+
+    .lower-half>.desk-copy>p {
+        font-size: 14px;
+        margin: 0 0 1em;
+        font-family: 'Roboto',
+            sans-serif;
+        font-style: normal;
+        color: #525F7F;
+    }
+
+    .lower-half>.mobile-copy {
+        display: none;
+    }
+
+    .close-popup {
+        display:
+            block !important;
+        width: 30px;
+        height: 30px;
+        background-color: #fff;
+        border-radius: 100%;
+        box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+        cursor:
+            pointer;
+        position: absolute;
+        right: -10px;
+        top: -10px;
+        z-index: 2;
+    }
+
+    .close-popup::before {
+        transform: rotate(45deg);
+        background-color: #414141;
+        content: '';
+        position: absolute;
+        left: 14px;
+        height: 14px;
+        top: 8px;
+        width:
+            2px;
+    }
+
+    .close-popup::after {
+        transform: rotate(-45deg);
+        background-color:
+            #414141;
+        content: '';
+        position: absolute;
+        left: 14px;
+        height: 14px;
+        top: 8px;
+        width: 2px;
+    }
+
+    .checks {
+        text-align: start;
+        margin-left: auto;
+        margin-right: auto;
+        width: 220px;
+    }
+
+
+    .checks>p {
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-family: 'Roboto',
+            sans-serif;
+        font-style: normal;
+        color: #525F7F;
+    }
+
+    @media only screen and (max-width: 768px) {
+        .subscribe-popup-parent {
+            bottom: 0;
+            right: 0;
+            height: unset;
+            width: 100%;
+            padding: 20px 30px;
+            box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2);
+            border-radius:
+                0px;
+        }
+
+        .lower-half>.mobile-copy {
+            display: block;
+        }
+
+        .upper-half {
+            display: none;
+        }
+
+        .desk-copy {
+            display: none;
+        }
+
+        .lower-half {
+            padding: 0px;
+        }
+
+        .lower-half>.mobile-copy>h3 {
+            font-size: 16px;
+            margin: 0;
+            font-weight: 600;
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+        }
+
+        .close-popup {
+            right: 10px;
+            top: 10px;
+            width: 20px;
+            height: 20px;
+        }
+
+        .lower-half>.mobile-copy>p {
+            font-size: 14px;
+            margin: 0 0 0 0;
+            font-family: 'Roboto',
+                sans-serif;
+            font-style: normal;
+            color: #525F7F;
+        }
+
+        .checks {
+            display: none;
+        }
+
+        .subs-submit-button,
+        .popup-email-input {
+            min-height: 35px;
+            font-size: 14px;
+        }
+
+        .close-popup::before,
+        .close-popup::after {
+            left: 9px;
+            height: 12px;
+            top: 5px;
+        }
+
+    }
+</style>
+<div id="subs-popup-banner">
+<div class="subscribe-popup-parent" id="subscribe-popup-parent">
+<div class="close-popup" onclick="closeButton()">
+</div>
+<div class="upper-half">
+</div>
+<div class="lower-half">
+<div class="desk-copy">
+<h3>Join 5,00,000+ readers today</h3>
+<p>Add Finshots to you inbox - get the latest financial insights for free.</p>
+</div>
+<div class="mobile-copy">
+<h3>Join 5,00,000+ readers in staying updated on the most important financial news.</h3>
+<p>Just 3-min a day. No spam. No jargon. Pinky promise.</p>
+</div>
+<div class="checks">
+<p>
+<svg fill="none" height="20" viewbox="0 0 18 18" width="20" xmlns="http://www.w3.org/2000/svg">
+<circle cx="9" cy="9" fill="url(#paint0_linear_3410_756)" r="9"></circle>
+<path d="M3.9375 9L7.3125 12.375L14.0625 5.625" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.25"></path>
+<defs>
+<lineargradient gradientunits="userSpaceOnUse" id="paint0_linear_3410_756" x1="15.5" x2="3.5" y1="3" y2="16.5">
+<stop stop-color="#5469DB"></stop>
+<stop offset="1" stop-color="#8383E0"></stop>
+</lineargradient>
+</defs>
+</svg>
+                     Just 1 email every morning
+                </p>
+<p><svg fill="none" height="20" viewbox="0 0 18 18" width="20" xmlns="http://www.w3.org/2000/svg">
+<circle cx="9" cy="9" fill="url(#paint0_linear_3410_756)" r="9"></circle>
+<path d="M3.9375 9L7.3125 12.375L14.0625 5.625" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.25"></path>
+<defs>
+<lineargradient gradientunits="userSpaceOnUse" id="paint0_linear_3410_756" x1="15.5" x2="3.5" y1="3" y2="16.5">
+<stop stop-color="#5469DB"></stop>
+<stop offset="1" stop-color="#8383E0"></stop>
+</lineargradient>
+</defs>
+</svg>
+                     3-min easy reads</p>
+<p><svg fill="none" height="20" viewbox="0 0 18 18" width="20" xmlns="http://www.w3.org/2000/svg">
+<circle cx="9" cy="9" fill="url(#paint0_linear_3410_756)" r="9"></circle>
+<path d="M3.9375 9L7.3125 12.375L14.0625 5.625" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.25"></path>
+<defs>
+<lineargradient gradientunits="userSpaceOnUse" id="paint0_linear_3410_756" x1="15.5" x2="3.5" y1="3" y2="16.5">
+<stop stop-color="#5469DB"></stop>
+<stop offset="1" stop-color="#8383E0"></stop>
+</lineargradient>
+</defs>
+</svg>
+                     Plain simple english, no jargon</p>
+</div>
+<div>
+<form action="https://send.finshots.in/api/subscribe/" id="mailshots-embedded-subscribe-form" method="post" name="mailshots-embedded-subscribe-form" target="_blank">
+<input aria-label="email" class="popup-email-input" id="mailshots-email" name="email" placeholder="Enter email" required="true" type="email"/>
+<button class="subs-submit-button" id="mailshots-embedded-subscribe" name="subscribe" type="submit">SUBSCRIBE
+                        FOR FREE</button>
+<div aria-hidden="true" class="invisible-div">
+<input hidden="" name="subscribe" readonly="" tabindex="-1" type="text" value="Finshots Main"/>
+</div>
+</form>
+</div>
+</div>
+</div>
+<script>
+        if (!(document.cookie.match("(^|;)\\s*" + "MailShotsPopupSubcribed" +
+            "\\s*=\\s*([^;]+)")?.pop() || document.cookie.match("(^|;)\\s*" +
+                "MailShotsPopupClosed" + "\\s*=\\s*([^;]+)")?.pop()) || "") {
+            window.addEventListener("scroll", () => {
+                let scrollTop = window.scrollY;
+                let docHeight = document.body.offsetHeight;
+                let winHeight = window.innerHeight;
+                let scrollPercent = Math.round((scrollTop / (docHeight - winHeight) * 100))
+                if (scrollPercent > 40) {
+                    document.getElementById("subscribe-popup-parent").style.visibility =
+                        "visible";
+                }
+            })
+        }
+        function closePopup() {
+            document.getElementById("subscribe-popup-parent").style.display = "none";
+        }
+        function setCookie(name, days) {
+            const d = new Date(); d.setTime(d.getTime()
+                + days * 24 * 60 * 60 * 1000); document.cookie = `${name}=yes;
+    expires=${d.toUTCString()}; path=/`;
+        }
+        document
+            .getElementById("mailshots-embedded-subscribe-form")
+            .addEventListener("submit", function () {
+                closePopup();
+                setCookie("MailShotsPopupSubcribed", 15);
+            });
+        function closeButton() {
+            closePopup(); setCookie("MailShotsPopupClosed", 30);
+        }
+    </script>
+</div> </div>
+</main>
+<footer class="site-foot">
+<div class="site-foot-nav inner">
+<div class="site-foot-nav-left">
+<a href="/">
+<img alt="Finshots" class="site-logo" src="https://d3jlwjv6gmyigl.cloudfront.net/assets/two/images/logo-2d6831bc63e1ecb76091541e2f20069a.png"/>
+</a>
+<div style="margin-top: 20px;">
+<a href="https://apps.apple.com/us/app/finshots/id1508510456">
+<img alt="Download on the App Store" class="app-store" src="https://d3jlwjv6gmyigl.cloudfront.net/assets/App_store_badge.svg"/>
+</a>
+<a href="https://play.google.com/store/apps/details?id=com.finception.finshots.android">
+<img alt="Get it on Google Play" class="play-store" src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"/>
+</a>
+</div>
+</div>
+<div class="site-foot-nav-right">
+<a href="https://bit.ly/42DA5lf">
+<svg fill="currentColor" height="1em" stroke="currentColor" stroke-width="0" style="color: rgb(255, 0, 0); font-size: 40px;" viewbox="0 0 576 512" width="1em" xmlns="http://www.w3.org/2000/svg">
+<path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z">
+</path>
+</svg>
+</a>
+<a href="https://twitter.com/finshots">
+<svg fill="currentColor" height="1em" stroke="currentColor" stroke-width="0" style="color:#1DA1F2;font-size:40px" viewbox="0 0 512 512" width="1em" xmlns="http://www.w3.org/2000/svg">
+<path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+</path>
+</svg>
+</a>
+<a href="https://www.linkedin.com/showcase/finshots/">
+<svg fill="currentColor" height="1em" stroke="currentColor" stroke-width="0" style="color:#2867B2;font-size:40px" viewbox="0 0 448 512" width="1em" xmlns="http://www.w3.org/2000/svg">
+<path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+</path>
+</svg>
+</a>
+<a href="https://www.instagram.com/finshots.in">
+<svg fill="currentColor" height="1em" stroke="currentColor" stroke-width="0" style="color:#E1306C;font-size:40px" viewbox="0 0 448 512" width="1em" xmlns="http://www.w3.org/2000/svg">
+<path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+</path>
+</svg>
+</a>
+</div>
+</div>
+<div class="footer-text inner">
+<h4 style="font-weight: normal;"><a href="https://bit.ly/3RcVn40" style="text-decoration: none; color: inherit;">Checkout Ditto - Insurance Made Simple</a></h4>
+<h4 style="font-weight: 400; margin-bottom: 16px">Made with ❤️ in India</h4>
+</div>
+</footer> </div>
+</div>
+<script>
+        var images = document.querySelectorAll('.kg-gallery-image img');
+        images.forEach(function (image) {
+            var container = image.closest('.kg-gallery-image');
+            var width = image.attributes.width.value;
+            var height = image.attributes.height.value;
+            var ratio = width / height;
+            container.style.flex = ratio + ' 1 0%';
+        })
+    </script>
+<script crossorigin="anonymous" integrity="sha512-3P8rXCuGJdNZOnUx/03c1jOTnMn3rP63nBip5gOP2qmUh5YAdVAvFZ1E+QLZZbC1rtMrQb+mah3AfYW11RUrWA==" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="/assets/built/app.js?v=e994aec420"></script>
+<script type="text/javascript">
+    var links = document.querySelectorAll('a');
+    links.forEach((link) => {
+        var a = new RegExp('/' + window.location.host + '/');
+        if(!a.test(link.href)) {
+          	link.addEventListener('click', (event) => {
+                event.preventDefault();
+                event.stopPropagation();
+                window.open(link.href, '_blank');
+            });
+        }
+    });
+</script>
+</body>
+</html>
+[2024-11-20T05:38:20.190+0000] {python.py:240} INFO - Done. Returned value was: None
+[2024-11-20T05:38:20.196+0000] {taskinstance.py:340} INFO - ::group::Post task execution logs
+[2024-11-20T05:38:20.196+0000] {taskinstance.py:352} INFO - Marking task as SUCCESS. dag_id=web_scraper_pipeline, task_id=scrape_articles, run_id=manual__2024-11-20T05:38:14.912844+00:00, execution_date=20241120T053814, start_date=20241120T053819, end_date=20241120T053820
+[2024-11-20T05:38:20.244+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2024-11-20T05:38:20.244+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2024-11-20T05:38:20.245+0000] {logging_mixin.py:190} INFO - Dag name:web_scraper_pipeline queued_at:2024-11-20 05:38:14.991175+00:00
+[2024-11-20T05:38:20.245+0000] {logging_mixin.py:190} INFO - Task hostname:DESKTOP-PGKOH6A. operator:PythonOperator
+[2024-11-20T05:38:20.271+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2024-11-20T05:38:20.286+0000] {taskinstance.py:3895} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-11-20T05:38:20.287+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
