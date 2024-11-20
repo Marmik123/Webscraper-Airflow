@@ -27,11 +27,12 @@ def scrape_articles(**kwargs):
     latest_five=post_sorted[:5]
     for post in latest_five:
         print('$$$ LATEST FIVE POST $$')
-        print(post)    
+        print(post['title'])    
+        response = requests.get(post['post_url'])
         print('##########')
-    # soup = BeautifulSoup(response.text, 'html.parser')
-    # print(url)
-    # print(soup)
+
+        soup = BeautifulSoup(response.text, 'html.parser')
+        print(soup)
     
     # articles = []
     

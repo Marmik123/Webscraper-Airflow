@@ -1920,3 +1920,255 @@ SyntaxError: invalid syntax
 [2024-11-20T09:35:47.930+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:35:47.930+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2024-11-20T09:35:47.950+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:35:47.949+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
 [2024-11-20T09:35:47.981+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.219 seconds
+[2024-11-20T09:36:27.770+0000] {processor.py:186} INFO - Started process (PID=57512) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:36:27.773+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:36:27.778+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:36:27.777+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:36:28.020+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:36:28.054+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:36:28.054+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:36:28.085+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:36:28.085+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:36:28.133+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.376 seconds
+[2024-11-20T09:37:04.479+0000] {processor.py:186} INFO - Started process (PID=57634) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:37:04.485+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:37:04.492+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:37:04.491+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:37:04.732+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:37:04.777+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:37:04.777+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:37:04.802+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:37:04.802+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:37:04.885+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.432 seconds
+[2024-11-20T09:37:41.919+0000] {processor.py:186} INFO - Started process (PID=57773) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:37:41.921+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:37:41.925+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:37:41.925+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:37:42.056+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:37:42.078+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:37:42.078+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:37:42.102+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:37:42.101+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:37:42.134+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.227 seconds
+[2024-11-20T09:38:16.871+0000] {processor.py:186} INFO - Started process (PID=57973) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:38:16.874+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:38:16.880+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:38:16.879+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:38:17.065+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:38:17.090+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:38:17.090+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:38:17.115+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:38:17.114+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:38:17.157+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.304 seconds
+[2024-11-20T09:38:52.884+0000] {processor.py:186} INFO - Started process (PID=58110) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:38:52.887+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:38:52.893+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:38:52.892+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:38:53.020+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:38:53.045+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:38:53.044+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:38:53.064+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:38:53.064+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:38:53.110+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.242 seconds
+[2024-11-20T09:39:27.002+0000] {processor.py:186} INFO - Started process (PID=58148) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:39:27.006+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:39:27.012+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:39:27.011+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:39:27.150+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:39:27.174+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:39:27.174+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:39:27.194+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:39:27.194+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:39:27.236+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.246 seconds
+[2024-11-20T09:39:59.055+0000] {processor.py:186} INFO - Started process (PID=58178) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:39:59.057+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:39:59.061+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:39:59.061+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:39:59.196+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:39:59.218+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:39:59.218+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:39:59.237+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:39:59.237+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:39:59.309+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.264 seconds
+[2024-11-20T09:40:30.727+0000] {processor.py:186} INFO - Started process (PID=58216) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:40:30.729+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:40:30.733+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:40:30.732+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:40:30.882+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:40:30.905+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:40:30.904+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:40:30.926+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:40:30.926+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:40:30.958+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.242 seconds
+[2024-11-20T09:41:08.262+0000] {processor.py:186} INFO - Started process (PID=58320) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:41:08.265+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:41:08.270+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:41:08.270+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:41:08.436+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:41:08.459+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:41:08.459+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:41:08.479+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:41:08.479+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:41:08.530+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.281 seconds
+[2024-11-20T09:41:47.323+0000] {processor.py:186} INFO - Started process (PID=58367) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:41:47.325+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:41:47.329+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:41:47.329+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:41:47.488+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:41:47.525+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:41:47.525+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:41:47.545+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:41:47.545+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:41:47.589+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.276 seconds
+[2024-11-20T09:42:26.218+0000] {processor.py:186} INFO - Started process (PID=58404) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:42:26.228+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:42:26.235+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:42:26.234+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:42:26.388+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:42:26.415+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:42:26.415+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:42:26.447+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:42:26.447+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:42:26.510+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.330 seconds
+[2024-11-20T09:43:04.760+0000] {processor.py:186} INFO - Started process (PID=58445) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:43:04.762+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:43:04.766+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:43:04.766+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:43:04.943+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:43:05.003+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:43:05.002+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:43:05.027+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:43:05.026+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:43:05.063+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.317 seconds
+[2024-11-20T09:43:39.998+0000] {processor.py:186} INFO - Started process (PID=58531) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:43:40.000+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:43:40.005+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:43:40.004+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:43:40.128+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:43:40.153+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:43:40.152+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:43:40.171+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:43:40.171+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:43:40.202+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.216 seconds
+[2024-11-20T09:44:13.379+0000] {processor.py:186} INFO - Started process (PID=58590) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:44:13.382+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:44:13.387+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:44:13.386+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:44:13.514+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:44:13.537+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:44:13.537+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:44:13.556+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:44:13.556+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:44:13.585+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.222 seconds
+[2024-11-20T09:45:07.611+0000] {processor.py:186} INFO - Started process (PID=59002) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:45:07.613+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:45:07.618+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:45:07.617+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:45:07.764+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:45:07.792+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:45:07.791+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:45:07.814+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:45:07.814+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:45:07.855+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.258 seconds
+[2024-11-20T09:46:00.061+0000] {processor.py:186} INFO - Started process (PID=59118) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:46:00.068+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:46:00.073+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:46:00.072+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:46:00.356+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:46:00.393+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:46:00.393+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:46:00.435+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:46:00.434+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:46:00.564+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.540 seconds
+[2024-11-20T09:46:51.211+0000] {processor.py:186} INFO - Started process (PID=59437) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:46:51.213+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:46:51.217+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:46:51.216+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:46:51.351+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:46:51.399+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:46:51.398+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:46:51.485+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:46:51.485+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:46:51.519+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.319 seconds
+[2024-11-20T09:47:25.510+0000] {processor.py:186} INFO - Started process (PID=59468) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:47:25.512+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:47:25.519+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:47:25.518+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:47:25.652+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:47:25.673+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:47:25.673+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:47:25.692+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:47:25.692+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:47:25.722+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.228 seconds
+[2024-11-20T09:48:01.462+0000] {processor.py:186} INFO - Started process (PID=59499) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:48:01.464+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:48:01.470+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:48:01.469+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:48:01.602+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:48:01.627+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:48:01.626+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:48:01.647+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:48:01.646+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:48:01.677+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.229 seconds
+[2024-11-20T09:48:35.305+0000] {processor.py:186} INFO - Started process (PID=59564) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:48:35.308+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:48:35.313+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:48:35.313+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:48:35.450+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:48:35.473+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:48:35.473+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:48:35.492+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:48:35.492+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:48:35.536+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.247 seconds
+[2024-11-20T09:49:10.994+0000] {processor.py:186} INFO - Started process (PID=59594) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:49:10.998+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:49:11.015+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:49:11.014+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:49:11.304+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:49:11.354+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:49:11.354+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:49:11.385+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:49:11.384+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:49:11.503+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.523 seconds
+[2024-11-20T09:49:55.296+0000] {processor.py:186} INFO - Started process (PID=59641) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:49:55.298+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:49:55.303+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:49:55.302+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:49:55.487+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:49:55.515+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:49:55.515+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:49:55.555+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:49:55.554+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:49:55.607+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.325 seconds
+[2024-11-20T09:50:39.643+0000] {processor.py:186} INFO - Started process (PID=59684) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:50:39.645+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:50:39.650+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:50:39.649+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:50:39.861+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:50:39.887+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:50:39.886+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:50:39.915+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:50:39.915+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:50:39.951+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.321 seconds
+[2024-11-20T09:51:19.514+0000] {processor.py:186} INFO - Started process (PID=59716) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:51:19.516+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:51:19.520+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:51:19.520+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:51:19.644+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:51:19.668+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:51:19.668+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:51:19.687+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:51:19.687+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:51:19.720+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.219 seconds
+[2024-11-20T09:51:55.902+0000] {processor.py:186} INFO - Started process (PID=59758) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:51:55.903+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:51:55.908+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:51:55.907+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:51:56.039+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:51:56.061+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:51:56.060+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:51:56.087+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:51:56.086+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:51:56.120+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.229 seconds
+[2024-11-20T09:52:27.520+0000] {processor.py:186} INFO - Started process (PID=59787) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:52:27.521+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:52:27.526+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:52:27.525+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:52:27.652+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:52:27.673+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:52:27.673+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:52:27.692+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:52:27.692+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:52:27.766+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.260 seconds
+[2024-11-20T09:53:03.002+0000] {processor.py:186} INFO - Started process (PID=59818) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:53:03.004+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:53:03.008+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:53:03.008+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:53:03.138+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:53:03.168+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:53:03.168+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:53:03.196+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:53:03.196+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:53:03.248+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.256 seconds
+[2024-11-20T09:53:35.965+0000] {processor.py:186} INFO - Started process (PID=59883) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:53:35.967+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:53:35.972+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:53:35.971+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:53:36.103+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:53:36.125+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:53:36.125+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:53:36.144+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:53:36.144+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:53:36.447+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.493 seconds
+[2024-11-20T09:54:08.868+0000] {processor.py:186} INFO - Started process (PID=59913) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:54:08.870+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:54:08.875+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:54:08.874+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:54:08.999+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:54:09.020+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:54:09.020+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:54:09.038+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:54:09.038+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:54:09.074+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.221 seconds
+[2024-11-20T09:54:40.966+0000] {processor.py:186} INFO - Started process (PID=59949) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:54:40.967+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:54:40.972+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:54:40.971+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:54:41.104+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:54:41.127+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:54:41.126+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:54:41.147+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:54:41.146+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:54:41.187+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.232 seconds
+[2024-11-20T09:55:12.975+0000] {processor.py:186} INFO - Started process (PID=59979) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:55:12.977+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:55:12.981+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:55:12.981+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:55:13.109+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:55:13.131+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:55:13.131+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:55:13.152+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:55:13.151+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:55:13.186+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.222 seconds
+[2024-11-20T09:55:47.590+0000] {processor.py:186} INFO - Started process (PID=60015) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:55:47.592+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:55:47.596+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:55:47.595+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:55:47.720+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:55:47.746+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:55:47.745+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:55:47.764+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:55:47.764+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:55:47.793+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.217 seconds
+[2024-11-20T09:56:21.812+0000] {processor.py:186} INFO - Started process (PID=60048) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:56:21.814+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:56:21.820+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:56:21.819+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:56:21.945+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:56:21.970+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:56:21.969+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:56:21.987+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:56:21.987+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:56:22.018+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.219 seconds
+[2024-11-20T09:56:54.531+0000] {processor.py:186} INFO - Started process (PID=60084) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:56:54.534+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:56:54.539+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:56:54.538+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:56:54.659+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:56:54.683+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:56:54.683+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:56:54.702+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:56:54.701+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:56:54.733+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.216 seconds
+[2024-11-20T09:57:29.314+0000] {processor.py:186} INFO - Started process (PID=60115) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:57:29.316+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:57:29.321+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:57:29.321+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:57:29.448+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:57:29.469+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:57:29.469+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:57:29.487+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:57:29.487+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:57:29.547+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.243 seconds
+[2024-11-20T09:58:03.562+0000] {processor.py:186} INFO - Started process (PID=60146) to work on /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:58:03.564+0000] {processor.py:914} INFO - Processing file /home/marmikm/airflow/dags/webscrapper.py for tasks to queue
+[2024-11-20T09:58:03.569+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:58:03.568+0000] {dagbag.py:588} INFO - Filling up the DagBag from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:58:03.707+0000] {processor.py:925} INFO - DAG(s) 'web_scraper_pipeline' retrieved from /home/marmikm/airflow/dags/webscrapper.py
+[2024-11-20T09:58:03.729+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:58:03.729+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-11-20T09:58:03.749+0000] {logging_mixin.py:190} INFO - [2024-11-20T09:58:03.749+0000] {dag.py:4180} INFO - Setting next_dagrun for web_scraper_pipeline to None, run_after=None
+[2024-11-20T09:58:03.800+0000] {processor.py:208} INFO - Processing /home/marmikm/airflow/dags/webscrapper.py took 0.255 seconds
